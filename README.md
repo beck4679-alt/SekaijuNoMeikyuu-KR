@@ -1,4 +1,4 @@
-# 세계수의 미궁 한글 패치 — 베타 1
+# 세계수의 미궁 한글 패치 — 베타 2
 
 닌텐도 DS용 「世界樹の迷宮」(세계수의 미궁, ATLUS 2007) 한국어 번역 패치입니다.
 **베타판**이라 번역 검토가 다 끝나지 않았습니다 (아래 「베타 안내」).
@@ -11,7 +11,7 @@
 
 ## 내려받기
 
-[Releases](https://github.com/beck4679-alt/SekaijuNoMeikyuu-KR/releases) 에서 `Sekaiju_KR_beta1.zip` (패치 + 이 설명 + 글꼴 라이선스)
+[Releases](https://github.com/beck4679-alt/SekaijuNoMeikyuu-KR/releases) 에서 `Sekaiju_KR_beta2.zip` (패치 + 이 설명 + 글꼴 라이선스)
 
 ## 필요한 원본
 
@@ -26,23 +26,23 @@
 
 ## 적용 방법
 
-패치 파일 `Sekaiju_KR_beta1.xdelta`의 형식은 xdelta(VCDIFF)입니다.
+패치 파일 `Sekaiju_KR_beta2.xdelta`의 형식은 xdelta(VCDIFF)입니다.
 
 - 웹: [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) 에서 원본 롬과 패치를 고르고 적용
 - Windows: xdelta UI · Delta Patcher 에서 원본 롬과 패치를 고르고 적용
-- 명령줄: `xdelta3 -d -s 원본.nds Sekaiju_KR_beta1.xdelta 세계수의미궁_한글.nds`
+- 명령줄: `xdelta3 -d -s 원본.nds Sekaiju_KR_beta2.xdelta 세계수의미궁_한글.nds`
 
 적용 결과:
 
 | 항목 | 값 |
 |---|---|
 | 크기 | 16,777,216바이트 |
-| CRC32 | `6107A454` |
-| SHA-256 | `2f61a8b75721b87845fbe423e8af9a348e3ad6e15102efdf4ed0d3c61c7f7787` |
+| CRC32 | `4BAD7968` |
+| SHA-256 | `da7c1f3f65bf97610a81099d8cf5feefbe8fda2705597aa66d5f24efd82d5640` |
 
 원본이 다르면(다른 판, 손댄 롬) 패치 안의 결과 체크섬이 맞지 않아 적용 도구가 멈춥니다.
 
-패치 파일: 1,380,631바이트, SHA-256 `e4eb5c84594c0a30069b3d66fca64c2e13114a133910d2298bb2222aa6655ecd`
+패치 파일: 1,380,615바이트, SHA-256 `927d95bbaf751e0d792c59e87e23c6e82185230fbc1adf50dfa599025b7c992c`
 
 ## 번역한 것
 
@@ -81,4 +81,5 @@
 
 ## 변경 기록
 
+- 베타 2 (2026-10-02): 벌채·채집·채굴 중 점 세 개(「・・・」)가 1분 가까이 걸려 찍히던 문제를 고침. 그 밖의 번역은 베타 1 과 같음
 - 베타 1 (2026-10-01): 첫 공개
